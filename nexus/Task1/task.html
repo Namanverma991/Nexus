@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form</title>
+    <link rel="stylesheet" href="task.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="hero">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+                <button type="button" class="toggle-btn" onclick="register()">Register</button>
+            </div>
+            <form id="login" class="input-group">
+                <input type="text" class="input-field" placeholder="User Id" required>
+                <input type="text" class="input-field" placeholder="Enter Password" required>
+                <input type="checkbox" class="check-box"><span>Remember Password</span>
+                <button type="submit" class="submit-btn">Log in</button>
+            </form>
+            <form id="register" class="input-group">
+                <input type="text" class="input-field" placeholder="User Id" required>
+                <input type="email" class="input-field" placeholder="Email Id" required>
+                <input type="text" class="input-field" placeholder="Enter Password" required>
+                <input type="checkbox" class="check-box"><span> I agree to the terms conditions</span>
+                <button type="submit" class="submit-btn">Register</button>
+            </form>
+            <div class="social-icons">
+                <a href="https://www.google.com/"><i class="fa-brands fa-google" id="gb"></i></a>
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f" id="fb"></i></a>
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram" id="tw"></i></i></a>
+                <a href="https://www.twitter.com/"><i class="fa-brands fa-x-twitter" id="tw"></i></a>
+            </div>
+        </div>
+    </div>
+    <script>
+        var x = document.getElementById("login");
+        var y = document.getElementById("register");
+        var z = document.getElementById("btn");
+
+        function register(){
+            x.style.left = "-400px"
+            y.style.left = "50px"
+            z.style.left = "110px"
+        }
+        function login(){
+            x.style.left = "50px"
+            y.style.left = "450px"
+            z.style.left = "0"
+        }
+    </script>
+</body>
+</html>
