@@ -1,0 +1,271 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.logo{
+    background-color: #143E83;
+    justify-content: center;
+    padding: 0 80px 0 0;
+    a{
+        color: white;
+        text-decoration: none;
+        font-size: 40px;
+        padding: 35px 65px;
+        display: inline-block;
+    }
+    .btn{
+        background-color: transparent;
+        border: 2px solid white;
+        border-radius: 10px;
+        padding: 10px 20px;
+        font-size: 15px;
+        cursor: pointer;
+        color:white;
+        margin: 0 0 0 590px;
+    }
+    .search{
+        padding: 10px 20px;
+        border: 2px solid white;
+        border-radius: 10px 0px 0px 10px;
+        font-size: 15px;
+    }
+    i{
+        font-size: 25px;
+        color: white;
+    }
+}
+
+#glass{
+    color: black;
+    font-size: 25px;
+    padding: 3px 0px;
+    height: 31px;
+    width: 31px;
+    border: 2px solid white;
+    border-radius: 0px 10px 10px 0px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.navbar{
+    justify-content: center;
+    text-align: center;
+    padding: 0 0 0 0;
+    a{
+        color: #143E83;
+        text-decoration: none;
+        font-size: 20px;
+        padding: 20px 30px;
+        display: inline-block;
+    }
+}
+
+header{
+    .box{
+        height: 350px;
+        width: 600px;
+        margin: 200px 0 0 30px;
+        background-color: #143f83ab;
+        color: white;
+    }
+    h1{
+        font-size: 70px;
+        padding: 30px 0 0 70px;
+        color: white;
+    }
+    .img{
+        background-image: url("https://ggu.edu/wp-content/uploads/2023/09/Student-in-library.jpg");
+        background-size: cover;
+        height: 100vh;
+        max-width: 100%;
+    }
+    p{
+        font-size: 25px;
+        padding: 30px 0 0 70px;
+    }
+    ul{
+        list-style-type: style dots;
+        margin-left: 100px;
+        margin-top: 10px;
+        li{
+            font-size: 20px;
+            padding: 10px;
+        }
+    }
+}
+
+main{
+    h1{
+        font-size: 40px;
+        color: #143E83;
+    }
+    p{
+        font-size: 25px;
+    }
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 0 0;
+    .box1{
+        height: 350px;
+        width: 400px;
+        border: none;
+        display: inline-block;
+        margin: 5px;
+        background-color: #143f8311;
+        font-size: 20px;
+        h1{
+           font-size: 20px;
+           padding: 10px 0 0 0;
+           text-align: center;
+           height: 50px;
+           width: 100%;
+           background-color: #143E83;
+           color: white;
+        }
+        p{
+            padding: 20px 0 0 15px;
+        }
+        a{
+            text-decoration: none;
+            color: #143E83;
+        }
+        ul{
+            list-style: none;
+            li{
+                padding: 15px 0 0 30px;
+            }
+        }
+    }
+    .box2{
+        height: 350px;
+        width: 400px;
+        border: none;
+        display: inline-block;
+        margin: 5px;
+        background-color: #143f8311;
+        font-size: 20px;
+        h1{
+            font-size: 20px;
+            padding: 10px 0 0 0;
+            text-align: center;
+            height: 50px;
+            width: 100%;
+            background-color: #143E83;
+            color: white;
+        }
+        a{
+            text-decoration: none;
+            color: #143E83;
+        }
+        ul{
+            list-style: none;
+            li{
+                padding: 15px 0 0 30px;
+            }
+        }
+    }
+    .box3{
+        height: 350px;
+        width: 400px;
+        border: none;
+        display: inline-block;
+        margin: 5px;
+        background-color: #143f8311;
+        font-size: 20px;
+        h1{
+            font-size: 20px;
+            padding: 10px 0 0 0;
+            text-align: center;
+            height: 50px;
+           width: 100%;
+           background-color: #143E83;
+           color: white;
+        }
+        a{
+            text-decoration: none;
+            color: #143E83;
+        }
+        ul{
+            list-style: none;
+            li{
+                padding: 15px 0 0 30px;
+            }
+        }
+    }
+}
+
+footer{
+     .law{
+        height: 250px;
+        width: auto;
+        border: 1px solid white;
+        box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.281);
+        border-radius: 10px;
+        margin: 100px 69px 0px 58px;
+        display: flex;
+     }
+     .book{
+        font-size: 100px;
+        padding: 60px 0px 0px 50px;
+        color: #143E83;
+     }
+     h1{
+        font-size: 50px;
+        padding: 30px 0 0 100px;
+        color: #143E83;
+     }
+     p{
+        font-size: x-large;
+        padding: 30px 0 0 0;
+        color: black;
+     }
+}
+
+.ending{
+    height: 300px;
+    background-color: #143E83;
+    margin: 50px 0 0 0;
+    .icons{
+        padding: 30px 0 0 950px;
+        display: inline-block;
+        a{
+            text-decoration: none;
+            padding: 0 30px 0 0;
+            color: white;
+            font-size: x-large;
+        }
+    }
+    .contact{
+        height: 250px;
+        width: 250px;
+        border: 2px solid white;
+        border-radius: 10px;
+        color: white;
+        margin: -30px 0 0 100px;
+        background-color: rgba(255, 255, 255, 0.123);
+        .input-field{
+            width: 100%;
+            padding: 10px 0;
+            margin: 5px 0;
+            border-left: 0;
+            border-top: 0;
+            border-right: 0;
+            border-bottom: 1px solid #999;
+            background: transparent;
+        }
+        .submit-btn{
+            width: 85%;
+            padding: 10px 30px;
+            display: block;
+            margin: auto;
+            background: linear-gradient(to right, #143E83, white);
+            border: 0;
+            outline: none;
+            border-radius: 30px;
+           }
+    }
+}
